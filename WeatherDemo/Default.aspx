@@ -36,7 +36,7 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            CallWeather("內湖區");
+            CallWeather("文山區");
         })
 		
 		function CallWeather(loc) {
