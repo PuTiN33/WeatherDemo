@@ -1,0 +1,155 @@
+﻿@font-face {
+	font-family: MSJH;
+	src: url('../font/MSJH.TTF') format('truetype');
+}
+
+@charset "UTF-8";
+/* CSS Document */
+
+.list2 {
+	font-size: 16px;
+	list-style-type: none;
+	text-indent: -1em;
+	text-align: left;
+	padding-left: 2em;
+	list-style-position: inside;
+	padding-right: 1em;
+	color: #999;
+	background-color: #FFF;
+}
+.list1 {
+	font-size: 16px;
+	padding-right: 1em;
+	padding-left: 1em;
+	color: #999;
+	background-color: #FFF;
+}
+.features1{
+	padding-left: 20px;
+	float:left;
+	width:47%
+}
+.features2{
+	padding-right: 20px;
+	float:right;
+	width:47%
+}
+.time {
+    font-family:Arial;font-size:20px;text-align:center;
+}
+.nouse {
+    background:url(/images/ico_available.png) no-repeat bottom;
+    width:140px;
+    height:110px;
+}
+.use {
+    background:url(/images/ico_occupied.png) no-repeat bottom;
+    width:140px;
+    height:110px;
+}
+.available{
+    color:#BDC33C;
+}
+.unavailable{
+    color:#E03396;
+}
+.menu{
+	text-align:right;
+	width:90%;
+    margin-right:20px;
+}
+.menu ul{
+	text-align:right;
+	font-weight:bold;
+	
+}
+.menu li{
+	display:inline-block;
+	color:#BDC33C;
+	/*padding:15px;*/
+	margin:0;
+	width:140px;
+	text-align:center;
+}
+
+.menu a:link { 
+	color:#BDC33C;       
+	text-decoration:none;
+	display:inline-block;
+	/*padding:15px;*/
+	margin:0;
+	width:140px;
+	text-align:center;
+    font-size:27px;
+}
+.menu a:visited { 
+	color:#BDC33C;         
+	text-decoration:none;
+	display:inline-block;
+	/*padding:15px;*/
+	margin:0;
+	width:140px;
+	text-align:center;
+    
+}
+.menu a:hover { 
+	color:#fff;         
+	text-decoration:none;
+	display:inline-block;
+	/*background-color:#feba12;*/
+	/*padding:15px;*/
+	margin:0;
+	width:140px;
+	text-align:center;
+}
+
+.gotoheader{
+	text-align:right;
+	width:90%;
+    margin-right:20px;
+    display:inline-block;
+	color:#BDC33C;
+	/*padding:15px;*/
+	margin:0;
+	width:140px;
+	text-align:center;
+    text-decoration: none;
+    font-size:27px;
+    font-family: MSJH;
+    margin-bottom:10px;
+}
+.gotoheader:link { 
+	color:#BDC33C;       
+	text-decoration:none;
+	display:inline-block;
+	/*padding:15px;*/
+	margin:0;
+	width:140px;
+	text-align:center;
+    font-size:27px;
+    margin-bottom:10px;
+
+}
+.gotoheader:visited { 
+	color:#BDC33C;         
+	text-decoration:none;
+	display:inline-block;
+	/*padding:15px;*/
+	margin:0;
+	width:140px;
+	text-align:center;
+    font-size:27px;
+    margin-bottom:10px;
+}
+.gotoheader:hover { 
+	color:#fff;         
+	text-decoration:none;
+	display:inline-block;
+	/*background-color:#feba12;*/
+	/*padding:15px;*/
+	/*margin:0;*/
+	width:140px;
+	text-align:center;
+    font-size:27px;
+    margin-bottom:10px;
+}
