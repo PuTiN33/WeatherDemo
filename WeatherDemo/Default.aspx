@@ -17,6 +17,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script src="js/jquery.blockUI.min.js"></script>
     <script src="js/custom.js"></script>
+<!--Weather css-->
+    <link href="css/weather-icons.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container">
